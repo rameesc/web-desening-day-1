@@ -753,6 +753,16 @@ margin-top: 20px;
         gap: 5px;
         justify-content: end;
     }
+    
+    .grid-col .item1{
+        width: 100%;
+    }
+    .grid-col .item2{
+        width: 100%;
+    }
+    .grid-col .item3{
+        width: 100%;
+    }
    
    
     
