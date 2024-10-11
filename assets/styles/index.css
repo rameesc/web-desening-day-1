@@ -94,13 +94,16 @@ h1,h2,h3,h4,h5{
 
 }
 .grid-col{
-    width: 100%;
-    min-height: 706px;
+    /* width: 100%; */
+    /* min-height: 706px; */
     display: grid;
+    justify-content: center;
+    padding: 10px;
     grid-template-areas: 
     "one"
     "two"
     "three";
+    
     gap: 20px;
    
    
@@ -116,7 +119,7 @@ h1,h2,h3,h4,h5{
    background-color:#c0e4fa;
    grid-area: one;
    min-height: 664px;
-   /* width: min(100%,511px); */
+   width: min(100%,511px);
   
    
 }
@@ -362,7 +365,7 @@ color: var(--light-dark-color);
 }
 .cart-img{
     position: relative;
-    width: 210px;
+    width: 260px;
     height: 210px;
     margin: 15px;
     background-color: #ccf1f850;
@@ -405,11 +408,13 @@ color: var(--light-dark-color);
     background-image: url(../images/bg-img.png);
     background-repeat: no-repeat;
     background-position-x: right;
-
+    width: min(650px,100%);
     border-radius: 5px;
+    
     padding: 30px;
 }
 .ice-offer>div:nth-child(2){
+    width: min(650px,100%);
     background-color:rgb(174, 214, 238);
     background-image: url(../images/bg-img.png);
     background-repeat: no-repeat;
@@ -417,6 +422,8 @@ color: var(--light-dark-color);
     border-radius: 5px;
     padding: 30px;
 }
+
+
 .discount{
     border: 10px;
     background-color: #d2edfd;
@@ -638,6 +645,7 @@ margin-top: 20px;
        
        
      }
+    
  }
 
 @media screen and (max-width:460px){
@@ -681,9 +689,12 @@ margin-top: 20px;
 
 @media screen and (min-width:1143px){
     .grid-col{
-        min-height: 706px;
        
+
+       width: 100%;
         display: grid;
+        justify-content: center;
+        
         grid-template-areas: 
         "one two"
         "one three"
@@ -698,16 +709,16 @@ margin-top: 20px;
     
     }
     .grid-col .item1{
-        width: 711px;
+        width:711px ;
 
     }
     .grid-col .item2{
         width: 551px;
-
+       
     }
     .grid-col .item3{
         width: 551px;
-
+      
     }
     .slider .slider-1 img{
         width: 258px;
@@ -739,6 +750,7 @@ margin-top: 20px;
         gap: 5px;
         justify-content: end;
     }
+   
    
     
 
