@@ -597,6 +597,9 @@ margin-top: 20px;
     font-size: 16px;
 
 }
+.fooote-items ul{
+    padding: 0px;
+}
 .fooote-items p{
     color: var(--light-dark-color);
     margin-top: 10px;
